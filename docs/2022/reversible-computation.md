@@ -15,13 +15,13 @@ The first section of this paper will introduce the basic principles and core for
 Reversible computation can be seen as a necessary consequence of the application of Turing computation and lambda calculus to model the world in a real world with limited information, which can be understood by the following simple physical picture. First, a Turing machine is a structurally fixed machine that has an enumerable finite set of States, can only perform a limited number of operations, but can read and save data from an infinite length of paper tape. For example, the computer we use daily, its hardware function has been determined when it leaves the factory, but by installing different software and importing different data files, it can automatically produce any complex target output. The computing process of a Turing machine can be formally written as
 
 $$
-目标输出 = 固定的机器（无限复杂的输入）
+TargetOutput = FixedMachine（InfiniteInput）
 $$
 
 Contrary to Turing machine, the core concept of lambda calculus is function. A function is a small computing machine. The composition of function is still a function, that is to say, more complex machines can be produced by recursive combination of machines and machines. The computational power of lambda calculus is equivalent to that of Turing machine, which means that if we are allowed to create more complex machines, even if we input a constant 0, we can get arbitrarily complex target output. The computational procedure of lambda calculus can be formally written as
 
 $$
-目标输出 = 无限复杂的机器（固定的输入）
+TargetOutput = InfiniteComposableMachine（FixedInput）
 $$
 
 It can be seen that the above two calculation processes can be expressed in the abstract form of Y = F (X). If we understand Y = F (X) as a modeling process, that is, we try to understand the structure of the input and the mapping relationship between the input and the output, and reconstruct the output in the most economical way, we will find that Turing machines and lambda calculus assume conditions that cannot be satisfied in the real world. In the real physical world, human cognition is always limited, and all quantities need to distinguish between the known part and the unknown part, so we need to decompose as follows:
