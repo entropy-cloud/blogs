@@ -1,5 +1,25 @@
 # Reversible Computing: The Next Generation of Software Construction Theory
 
+## Contact me
+
+* Blog -> <https://www.zhihu.com/column/reversible-computation>
+* Email -> <canonical_entropy@163.com>
+* GitHub -> [entropy-cloud@GitHub](https://github.com/entropy-cloud)
+
+---
+
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+
 As we all know, the cornerstones of computer science are two basic theories: Turing machine theory proposed by Turing in 1936 and Lambda calculus theory published by Church in the early same year. These two theories laid the conceptual foundation of the so-called Universal Computation, describing two technical routes with the same computing power (Turing complete), but with different forms. If we regard these two theories as the two extremes of the world origin shown by God, is there a more moderate and flexible way to reach the other side of general computing?
 
 Since 1936, software, as the core application of computer science, has been in the process of continuous conceptual change, and various programming languages/system architectures/design patterns/methodologies have emerged in an endless stream, but the basic principles of software construction are still within the scope of the two basic theories. If a new theory of software construction is defined, what is essentially unique about the new concepts it introduces? What thorny problems can be solved?

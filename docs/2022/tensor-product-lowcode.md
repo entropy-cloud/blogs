@@ -1,5 +1,26 @@
 # Design of LowCode Platform from a tensor product perspective 
 
+## Contact me
+
+* Blog -> <https://www.zhihu.com/column/reversible-computation>
+* Email -> <canonical_entropy@163.com>
+* GitHub -> [entropy-cloud@GitHub](https://github.com/entropy-cloud)
+
+---
+
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+
+
 A fundamental problem in software design is the problem of extensibility. A basic strategy for dealing with scalability is to view the new element of change as a new dimension, and then examine the interaction between this dimension and the existing dimensions.
 
 For example, an OrderProcess processing logic has been written for the Order object. If it is released as SAAS software, the tenant dimension needs to be added. In the simplest case, the tenant only introduces the filtering field at the database level, that is, the tenant dimension is relatively independent, and its introduction does not affect the specific business processing logic (the logic related to the tenant is independent of the specific business processing process, and can be uniformly defined and solved in the storage layer).
