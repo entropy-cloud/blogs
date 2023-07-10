@@ -4,6 +4,7 @@
 
 ## [XDSL: Generic Domain Specific Language Design](2023/xdsl.md)
 
+## [Nop Platform vs. Skyve Lowcode Platform](2023/nop-vs-skyve.md)
 
 # 2022
 
